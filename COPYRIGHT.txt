@@ -1,0 +1,10 @@
+/*=========================================================================
+
+  Program:   Neurocell
+
+Copyright (c) 2026 Shekhar S. Chandra
+All rights reserved.
+
+Redistribution and use in source and binary forms is permitted within the GNU Lesser Public License Version 3.
+
+=========================================================================*/
