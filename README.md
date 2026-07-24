@@ -1,5 +1,5 @@
 # Neurocell Library
-Cellular machines library for automated systems and self assembly with John von Neumann Networks (VNNs).
+Official implementation of the [Neurocell](https://arxiv.org/abs/2605.05780) library for automated systems and self assembly using John von Neumann Networks (VNNs).
 
 ## Structure
 In general, driver scripts are prefixed with tests_* and unit tests as unit_*.
@@ -17,7 +17,7 @@ The descriptions of the various scripts can be found on the [experiments page](e
 ## Implementation
 JAX library based implementation of the cellular machines as JAX Numpy arrays
 
-Includes implementation of the Von Neumann Networks and Game of Life (GoL) in JAX.
+Includes implementation of the Von Neumann Networks (VNNs) and Game of Life (GoL) in JAX.
 
 ## Requirements
 See the requirements file provided.
@@ -54,6 +54,12 @@ Then we need to install Haiku and other dependencies with stable versions found 
 ```
 pip install optax einops flax==0.10.7 dm-haiku==0.0.14
 pip install scikit-learn scikit-image seaborn
+```
+
+## Citation
+This is the official library for the following preprint found [here](http://arxiv.org/abs/2605.05780):
+```
+S. S. Chandra, “Von Neumann Networks,” May 07, 2026, arXiv: arXiv:2605.05780. doi: 10.48550/arXiv.2605.05780. URL: http://arxiv.org/abs/2605.05780.
 ```
 
 ## License
